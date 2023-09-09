@@ -2,33 +2,101 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+	font-family: "Pacifico";
+	src: url("/fonts/Pacifico-Regular.woff") format("woff");
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: "Josefin Sans";
+	src: url("/fonts/JosefinSans-Regular.woff") format("woff");
+	font-weight: lighter;
+	font-style: normal;
+	font-display: swap;
+}
+
+/* Headings */
+h1,
+h2,
+#logo-header {
+	font-family: "Pacifico", cursive;
+	font-weight: normal;
+}
+
+h3,
+h4,
+h5,
+h6,
+p,
+a {
+	font-family: "Josefin", sans-serif;
+}
+
+a {
+	text-decoration: none;
+}
+
 @layer base {
 	:root {
 		color-scheme: light;
 		/* https://tailwindcss.com/docs/customizing-colors#using-css-variables */
-		--theme-bg: 0deg 0% 98%;
+		--theme-bg: 286deg 100% 81%;
 		--theme-link: 172deg 18% 41%;
-		--theme-text: 203deg 11% 15%;
+		--theme-text: 283deg 100% 21%;
 		--theme-accent: 351deg 66% 48%;
 		--theme-accent-2: 0deg 0% 7%;
 		--theme-quote: 351deg 66% 48%;
+		font-family: "Pacifico", sans-serif;
 	}
 
 	:root.dark {
 		color-scheme: dark;
-		--theme-bg: 210deg 6% 12%;
-		--theme-link: 330deg 49% 67%;
-		--theme-text: 220deg 3% 79%;
-		--theme-accent: 159deg 64% 45%;
-		--theme-accent-2: 0deg 0% 93%;
+		--theme-bg: 283deg 100% 21%;
+		--theme-link: 302deg 98% 36%;
+		--theme-text: 317deg 100% 86%;
+		--theme-accent: 320deg 100% 61%;
+		--theme-accent-2: 288deg 100% 51%;
 		--theme-quote: 102deg 100% 86%;
 	}
 
 	html {
 		@apply scroll-smooth;
+		@apply text-lg;
 	}
 
 	html body {
-		@apply mx-auto flex min-h-screen max-w-3xl flex-col bg-bgColor px-8 pt-16 font-mono text-sm font-normal text-textColor antialiased;
+		@apply mx-auto flex min-h-screen max-w-3xl flex-col bg-bgColor px-8 pt-16 font-sans text-sm font-light text-textColor antialiased;
+	}
+
+	.cactus-link {
+		@apply text-lg underline decoration-pink-500 decoration-wavy hover:text-purple-800 hover:decoration-purple-700 sm:text-2xl md:text-xl;
+	}
+
+	.cactus-link.cactus-tag,
+	.cactus-tag {
+		@apply text-lg;
+		@apply hover:text-purple-800;
+		@apply hover:decoration-purple-700;
+		@apply sm:text-2xl;
+		@apply md:text-xl;
+		@apply underline decoration-pink-500 decoration-dotted;
+		@apply font-extrabold;
+		@apply text-violet-600;
+	}
+
+	h1,
+	h2 {
+		@apply text-3xl text-pink-500;
+	}
+
+	h3,
+	h4,
+	h5,
+	h6,
+	p,
+	a {
+		@apply font-sans text-lg font-light;
 	}
 }

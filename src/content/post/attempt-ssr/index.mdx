@@ -1,0 +1,20 @@
+---
+title: "Attempt at SR rendering"
+description: "XKCD Chart Attempt using Astro's Hybrid Rendering. This could fix an issue I have with components which require the DOM to exist. "
+publishDate: "04 July 2023"
+updatedDate: "14 August 2023"
+coverImage:
+  src: "./ssr-schema.png"
+  alt: "React and SSR"
+tags: ["SSR", "image", "JS"]
+---
+
+```tsx
+
+export const Charts = import("./chart.tsx");
+
+# One attempt
+
+<Charts />
+
+```

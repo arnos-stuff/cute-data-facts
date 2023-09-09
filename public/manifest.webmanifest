@@ -1,21 +1,116 @@
 {
-	"name": "Astro Theme Cactus Demo",
-	"short_name": "Astro_Cactus",
-	"description": "Starter blog site for Astro",
-	"icons": [
-		{
-			"src": "/192x192.png",
-			"sizes": "192x192",
-			"type": "image/png"
-		},
-		{
-			"src": "/512x512.png",
-			"sizes": "512x512",
-			"type": "image/png"
-		}
-	],
-	"start_url": "/",
-	"background_color": "#1d1f21",
-	"theme_color": "#2bbc8a",
-	"display": "standalone"
+  "name": "Cute Data Facts",
+  "short_name": "CuteDataFacts",
+  "description": "A goofy little blog about opinions and data, in a fun way !",
+  "icons": [
+    {
+      "src": "/icons/pandas-hacker-16x16.jpeg",
+      "sizes": "16x16",
+      "type": "image/jpeg"
+    },
+    {
+      "src": "/icons/pandas-hacker-16x16.png",
+      "sizes": "16x16",
+      "type": "image/png"
+    },
+    {
+      "src": "/icons/pandas-hacker-16x16.webp",
+      "sizes": "16x16",
+      "type": "image/webp"
+    },
+    {
+      "src": "/icons/pandas-hacker-32x32.jpeg",
+      "sizes": "32x32",
+      "type": "image/jpeg"
+    },
+    {
+      "src": "/icons/pandas-hacker-32x32.png",
+      "sizes": "32x32",
+      "type": "image/png"
+    },
+    {
+      "src": "/icons/pandas-hacker-32x32.webp",
+      "sizes": "32x32",
+      "type": "image/webp"
+    },
+    {
+      "src": "/icons/pandas-hacker-64x64.jpeg",
+      "sizes": "64x64",
+      "type": "image/jpeg"
+    },
+    {
+      "src": "/icons/pandas-hacker-64x64.png",
+      "sizes": "64x64",
+      "type": "image/png"
+    },
+    {
+      "src": "/icons/pandas-hacker-64x64.webp",
+      "sizes": "64x64",
+      "type": "image/webp"
+    },
+    {
+      "src": "/icons/pandas-hacker-96x96.jpeg",
+      "sizes": "96x96",
+      "type": "image/jpeg"
+    },
+    {
+      "src": "/icons/pandas-hacker-96x96.png",
+      "sizes": "96x96",
+      "type": "image/png"
+    },
+    {
+      "src": "/icons/pandas-hacker-96x96.webp",
+      "sizes": "96x96",
+      "type": "image/webp"
+    },
+    {
+      "src": "/icons/pandas-hacker-128x128.jpeg",
+      "sizes": "128x128",
+      "type": "image/jpeg"
+    },
+    {
+      "src": "/icons/pandas-hacker-128x128.png",
+      "sizes": "128x128",
+      "type": "image/png"
+    },
+    {
+      "src": "/icons/pandas-hacker-128x128.webp",
+      "sizes": "128x128",
+      "type": "image/webp"
+    },
+    {
+      "src": "/icons/pandas-hacker-192x192.jpeg",
+      "sizes": "192x192",
+      "type": "image/jpeg"
+    },
+    {
+      "src": "/icons/pandas-hacker-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/icons/pandas-hacker-192x192.webp",
+      "sizes": "192x192",
+      "type": "image/webp"
+    },
+    {
+      "src": "/icons/pandas-hacker-254x254.jpeg",
+      "sizes": "254x254",
+      "type": "image/jpeg"
+    },
+    {
+      "src": "/icons/pandas-hacker-254x254.png",
+      "sizes": "254x254",
+      "type": "image/png"
+    },
+    {
+      "src": "/icons/pandas-hacker-254x254.webp",
+      "sizes": "254x254",
+      "type": "image/webp"
+    }
+  ],
+  "start_url": "/",
+  "background_color": "#1d1f21",
+  "theme_color": "#2bbc8a",
+  "display": "standalone"
 }
