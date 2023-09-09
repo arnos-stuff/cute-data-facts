@@ -38,6 +38,12 @@ a {
 	text-decoration: none;
 }
 
+th {
+	font-family: "Pacifico" cursive;
+	font-size: medium;
+	font-weight: 400;
+}
+
 @layer base {
 	:root {
 		color-scheme: light;
@@ -98,5 +104,32 @@ a {
 	p,
 	a {
 		@apply font-sans text-lg font-light;
+	}
+
+	table {
+		@apply table-auto border-collapse rounded-full border-8 border-purple-900 text-2xl opacity-70 shadow-pink-600 ring-pink-400 dark:bg-purple-700;
+	}
+
+	table > a {
+		@apply text-lg;
+		@apply hover:text-purple-800;
+		@apply hover:decoration-purple-700;
+		@apply sm:text-2xl;
+		@apply md:text-xl;
+		@apply underline decoration-pink-500 decoration-dotted;
+		@apply font-extrabold;
+		@apply text-violet-600;
+	}
+
+	th {
+		@apply bg-purple-900 text-center text-justify;
+	}
+
+	tr {
+		@apply rounded-full hover:border-spacing-4 dark:bg-violet-700;
+	}
+
+	td {
+		@apply rounded-sm border-2 border-pink-200 border-purple-500 px-2 py-2 pt-16 shadow-pink-600;
 	}
 }
